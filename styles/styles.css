@@ -6,7 +6,7 @@
 #c6bec1
 #dad9d7 fondo de servicios
 */
-
+/*Inicialización de página*/
 *{
     margin:0;
     padding: 0;
@@ -18,7 +18,7 @@
 body{
     background-color: black;
 }
-/*Cabecera*/
+/*Cabecera fija por toda la página*/
 header{
     position: fixed;
     width: 100vw;
@@ -95,7 +95,7 @@ video{
     font-style: italic;
     color:#7CE3E5;
 }
-/*Información*/
+/*Información con efectos especiales*/
 .informacion{
     height: 45vh;
     padding-top: 5vh;
@@ -140,8 +140,6 @@ video{
     font-weight: 1000;
 }
 
-
-
 .artinfo1:hover{
     transform: scale(0.9);
 }
@@ -151,7 +149,7 @@ video{
 .artinfo3:hover{
     transform: scale(0.9);
 }
-/*Servicios*/
+/*Servicios que se dividen en filas con una transición especial en los artículos*/
 
 .servicios{
     background-color: #dad9d7;
@@ -334,7 +332,7 @@ video{
     opacity: 70%;
 }
 
-
+/*Hover para cambiar la escala */
 .articulos1fila1:hover{
     transform: scale(1.1);
 }
@@ -479,27 +477,7 @@ a:link {
     text-decoration: underline;
     color: white;
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  /*Responsive para teléfono*/
   @media screen AND (max-width: 768px){
     header{
         position:static;
@@ -949,7 +927,7 @@ a:link {
         margin-left: 15vw;
     }
     .textocontacto{
-        width: 70%;
+        width: 70vw;
         text-align: center;
         margin-top: 6vh;
         margin-left: 45vw;

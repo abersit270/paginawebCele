@@ -1,3 +1,4 @@
+/*Inicialización de página*/
 *{
     margin:0;
     padding: 0;
@@ -6,11 +7,13 @@
     font-weight: 700;
     font-style: italic;
 }
+/*Imagen de fondo*/
 body{
     background-image: url(../images/formsfondo.jpeg);
     background-repeat:round;
     background-color: #b1763b;
 }
+/*Configuración de formulario*/
 .formulario{
     position: absolute;
     top: 50%;
@@ -81,7 +84,7 @@ a:link {
     text-decoration: underline;
     color: white;
   }
-
+  /*Responsive con una imagen de fondo vertical*/
   @media screen AND (max-width: 768px){
     body{
         background-image: url(../images/imgverticalform.jpeg);
