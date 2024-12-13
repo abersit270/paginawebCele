@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles3.css">
+</head>
+<body>
+    <section class="formulario">
+        <form action="">
+            <h1>Register</h1>
+            <input type="text" id="pnombre" name="pnombre" class="texto" pattern="([A-ZAEIOUÁÉÍÓÚÑ][a-zaeiouáéíóú\s]+)+" required placeholder="Username">
+            <br>
+            <input type="password" id="pcontrasena" name="pcontrasena" class="texto" placeholder="Password">
+            <br>
+            <input type="password" id="pcontrasena" name="pcontrasena" class="texto" placeholder="Repeat Password">
+            <br>
+            <input type="date" id="pnacimiento" name="pnacimiento" class="texto">
+            <br>
+            <input type="text" id="ptelefono" name="ptelefono" class="texto" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+            <br>
+            <label for="pcorreo" >Correo Electrónico</label>
+            <br>
+            <input type="email" id="pcorreo" name="pcorreo" class="texto">
+            <br>
+            <label for="pdireccion">Dirección</label>
+            <br>
+            <input type="text" id="pdireccion" name="pdireccion" class="texto">
+            <br>
+            <label for="pcp">Código Postal</label>
+            <br>
+            <input type="text" id="pcp" name="pcp" class="texto" pattern="[0-9]{5}">
+            <br>
+            <section class="remember">
+                <label for="condiciones">Acepto los términos y <a href="">condiciones</a></label>
+                <input type="checkbox" required>
+                <br>
+                <label for="remember">Remember me</label>
+                <input type="checkbox" class="checkbox">
+                <br>
+            </section>
+            <input type="submit" class="submit" value="Register">
+            <br>
+            <p>Back to <a href="./index.html">Inicio</a></p>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+body{
+    background-image: url(../images/formsfondo.jpeg);
+    background-repeat:round;
+    background-color: #b1763b;
+}
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40vw;
+    height: 50vh;
+    background-color: #b1763b;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 80%;
+    
+    
+}
+form{
+    color: white;
+    margin-top: 3vh;
+}
+h1{
+    text-align: center;
+    font-size: 2vw;
+}
+.texto{
+    width: 80%;
+    padding: 1.1vw;
+    background-color: white;
+    text-align: center;
+    margin-top: 1.1vh;
+    border-radius: 20px;
+    border: solid;
+    border-color: white;
+    
+}
+.submit{
+    width: 80%;
+    padding: 1.1vw;
+    border-radius: 20px;
+}
+.remember{
+    text-align: left;
+    padding: 1.1vw;
+    margin-left: 1.3vw;
+}
+/*Links*/
+
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    
+  }
+  a:visited {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    
+  }
+  
+  a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    color: white;
+    
+  }
+  
+  a:active {
+    background-color: transparent;
+    text-decoration: underline;
+    color: white;
+  }
+
+  @media screen AND (max-width: 768px){
+    body{
+        background-image: url(../images/imgverticalform.jpeg);
+        background-position: center;
+        background-size: cover;
+        
+    }
+    
+  }
