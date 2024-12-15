@@ -17,11 +17,14 @@
 }
 body{
     background-color: black;
+    width: 100%;
+    
 }
 /*Cabecera fija por toda la página*/
 header{
     position: fixed;
     width: 100vw;
+    z-index: 100;
 }
 .titulo{
     display: flex;
@@ -45,7 +48,7 @@ header{
 .nav{
     padding: 20px;
     align-items: center;
-    font-size: 20px;
+    font-size: 1.3vw;
     font-weight:bold;
 }
 .nav:hover{
@@ -53,9 +56,10 @@ header{
     border-radius: 20px;
 }
 .logo{
-    width: 5vw;
-    height: 5vw;
+    width: 8vw;
+    height: 8vw;
     margin-top: 10px;
+    border-radius: 100%;
 }
 #myvideo{
     position:center;
@@ -418,13 +422,13 @@ video{
 .contactos{
     background-color:black;
     height: 40vh;
+    width: 100%;
     font-family: "League Spartan", sans-serif;
     color: white;
     display: flex;
 }
 .logocontacto{
     width: 30vh;
-    margin: 5vh;
 }
 .titulocontacto{
     text-align: center;
@@ -442,6 +446,7 @@ video{
     text-align: center;
     margin-top: 6vh;
     margin-left: 45vw;
+    
 }
 .articonos{
     display: flex;
@@ -477,8 +482,14 @@ a:link {
     text-decoration: underline;
     color: white;
   }
+
   /*Responsive para teléfono*/
+
   @media screen AND (max-width: 768px){
+    body{
+        background-color: black;
+        width: 100%;
+    }
     header{
         position:static;
         width: 100%;
@@ -486,7 +497,7 @@ a:link {
     .titulo{
         display: flex;
         background-color:  black;
-        width: 97vw;
+        width: 100%;
         
     }
     .cabecera{
@@ -567,7 +578,7 @@ a:link {
         
     }
     .artinfo1{
-        width:60vw;
+        width:70vw;
         height: 40vh;
         background-color: #7CE3E5;
         background-image: url(../images/catalogoinfo.jpg);
@@ -575,10 +586,10 @@ a:link {
         background-size: cover;
         transition: 0.2s;
         box-shadow: 3px 3px 3px grey;
-        margin-left: 20%;
+        margin-left: 15%;
     }
     .artinfo2{
-        width:60vw;
+        width:70vw;
         height: 40vh;
         background-color: #7CE3E5;
         background-image: url(../images/solucionesinfo.jpg);
@@ -586,10 +597,10 @@ a:link {
         background-size: cover;
         transition: 0.2s;
         box-shadow: 3px 3px 3px grey;
-        margin-left: 20%;
+        margin-left: 15%;
     }
     .artinfo3{
-        width:60vw;
+        width:70vw;
         height: 40vh;
         background-color: #7CE3E5;
         background-image: url(../images/pagafacturas.jpg);
@@ -597,7 +608,7 @@ a:link {
         background-size: cover;
         transition: 0.2s;
         box-shadow: 3px 3px 3px grey;
-        margin-left: 20%;
+        margin-left: 15%;
     }
     .titulosinfo{
         padding-top: 20px;
@@ -622,7 +633,7 @@ a:link {
     
     .servicios{
         background-color: #dad9d7;
-        height: 880vh;
+        height: 915vh;
     }
     .tituloservicio{
         text-align: center;
@@ -638,12 +649,12 @@ a:link {
         justify-content: space-around;
         margin-top: 10vh;
         font-size: 3vw;
-        padding-left: 25%;
+        padding-left: 8%;
         
     }
     
     .articulos1fila1{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/folletos.webp);
         background-position: center;
@@ -654,7 +665,7 @@ a:link {
         
     }
     .articulos2fila1{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/tarjeta.jpg);
         background-size: cover;
@@ -663,7 +674,7 @@ a:link {
         box-shadow: 3px 3px 3px grey;
     }
     .articulos3fila1{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/etiquetas.jpeg);
         background-size: cover;
@@ -672,7 +683,7 @@ a:link {
         box-shadow: 3px 3px 3px grey;
     }
     .articulos4fila1{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/carteles.jpg);
         background-size: cover;
@@ -685,12 +696,12 @@ a:link {
         height: 40vh;
         display: block;
         justify-content: space-around;
-        margin-top: 175vh;
+        margin-top: 182vh;
         font-size: 3vw;
-        padding-left: 25%;
+        padding-left: 8%;
     }
     .articulos1fila2{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/cartuchera.jpeg);
         background-size: cover;
@@ -699,7 +710,7 @@ a:link {
         box-shadow: 3px 3px 3px grey;
     }
     .articulos2fila2{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/resaltadores.jpeg);
         background-size: cover;
@@ -708,7 +719,7 @@ a:link {
         box-shadow: 3px 3px 3px grey;
     }
     .articulos3fila2{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/lapices.jpeg);
         background-size: cover;
@@ -717,7 +728,7 @@ a:link {
         box-shadow: 3px 3px 3px grey;
     }
     .articulos4fila2{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/matOficina.jpeg);
         background-size: cover;
@@ -729,12 +740,12 @@ a:link {
         height: 40vh;
         display: block;
         justify-content: space-around;
-        margin-top: 175vh;
+        margin-top: 182vh;
         font-size: 3vw;
-        padding-left: 25%;
+        padding-left: 8%;
     }
     .articulos1fila3{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/oficina.jpeg);
         background-size: cover;
@@ -743,7 +754,7 @@ a:link {
         box-shadow: 3px 3px 3px grey;
     }
     .articulos2fila3{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/sobres.jpeg);
         background-size: cover;
@@ -752,7 +763,7 @@ a:link {
         box-shadow: 3px 3px 3px grey;
     }
     .articulos3fila3{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/factura.jpeg);
         background-size: cover;
@@ -761,7 +772,7 @@ a:link {
         box-shadow: 3px 3px 3px grey;
     }
     .articulos4fila3{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/sellos.jpeg);
         background-size: cover;
@@ -773,12 +784,12 @@ a:link {
         height: 40vh;
         display: block;
         justify-content: space-around;
-        margin-top: 175vh;
+        margin-top: 182vh;
         font-size: 3vw;
-        padding-left: 25%;
+        padding-left: 8%;
     }
     .articulos1fila4{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/embalaje.jpeg);
         background-size: cover;
@@ -787,7 +798,7 @@ a:link {
         box-shadow: 3px 3px 3px grey;
     }
     .articulos2fila4{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/bolsa.jpeg);
         background-size: cover;
@@ -796,7 +807,7 @@ a:link {
         box-shadow: 3px 3px 3px grey;
     }
     .articulos3fila4{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/sobreProct.jpeg);
         background-size: cover;
@@ -805,7 +816,7 @@ a:link {
         box-shadow: 3px 3px 3px grey;
     }
     .articulos4fila4{
-        width: 50vw;
+        width: 80vw;
         height: 50vh;
         background-image: url(../images/redesSociales.png);
         background-size: cover;
@@ -906,7 +917,7 @@ a:link {
     
     .contactos{
         background-color:black;
-        height: 40vh;
+        height: 60vh;
         font-family: "League Spartan", sans-serif;
         color: white;
         display: flex;
@@ -927,10 +938,8 @@ a:link {
         margin-left: 15vw;
     }
     .textocontacto{
-        width: 70vw;
         text-align: center;
         margin-top: 6vh;
-        margin-left: 45vw;
     }
     .articonos{
         display: flex;
