@@ -97,5 +97,52 @@ a:link {
         background-size: cover;
         
     }
-    
+    .formulario{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70vw;
+        height: 50vh;
+        background-color: #b1763b;
+        text-align: center;
+        border-radius: 20px;
+        opacity: 80%;
+        overflow: scroll;
+        
+        
+    }
+    form{
+        color: white;
+        margin-top: 3vh;
+    }
+    h1{
+        text-align: center;
+        font-size: 5vw;
+    }
+    .texto{
+        width: 80%;
+        padding: 1.1vw;
+        background-color: white;
+        text-align: center;
+        margin-top: 1.1vh;
+        border-radius: 20px;
+        border: solid;
+        border-color: white;
+        
+    }
+    .submit{
+        width: 80%;
+        padding: 1.1vw;
+        border-radius: 20px;
+        
+    }
+    .submit:hover{
+        scale: 1.1;
+    }
+    .remember{
+        text-align: left;
+        padding: 1.1vw;
+        margin-left: 1.3vw;
+    }
   }
