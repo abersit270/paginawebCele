@@ -635,7 +635,7 @@ a:link {
     }
     .tituloservicio{
         text-align: center;
-        font-size: 5vw;
+        font-size: 7vw;
         padding-top: 6vh;
         color: #D9216F;
         padding-top: 10vh;
@@ -895,30 +895,34 @@ a:link {
         text-align: justify;
     }
     .partizqintroduccion{
-        width: 30vw;
+        width: 10%;
     }
     .pintroduccion{
-        text-align: center;
-        font-size: 5vw;
+        text-align:center;
+        font-size: 7vw;
         color:#D9216F;
+        margin-left: 0%;
         
     }
     .ptextointroduccion{
         margin-top: 6vh;
         font-size: 2.6vw;
+        width: 80%;
+        margin-left: 10%;
     }
     .partderintroduccion{
-        width: 20vw;
+        width: 10%;
     }
     
     /*Contactos*/
     
     .contactos{
         background-color:black;
-        height: 60vh;
+        height: 30vh;
         font-family: "League Spartan", sans-serif;
         color: white;
         display: flex;
+        
     }
     .logocontacto{
         width: 2vh;
@@ -932,15 +936,20 @@ a:link {
     .logogocopy{
         width: 25vw;
         border-radius: 20vw;
+        margin-top: 7vh;
     }
     .textocontacto{
         text-align: center;
-        margin-top: 2vh;
+        margin-top: 6vh;
     }
     .articonos{
         display: flex;
+        margin-top: 1vh;
+        
     }
     .iconos{
-        width: 10vw;
+        width: 5vw;
+        margin-right: 2vw;
+        
     }
   }
