@@ -944,6 +944,7 @@ a:link {
     .textocontacto{
         text-align: center;
         margin-top: 6vh;
+        font-size: 2.5vw;
     }
     .articonos{
         display: flex;
