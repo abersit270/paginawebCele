@@ -46,10 +46,12 @@ header{
     width: 20vw;
 }
 .nav{
-    padding: 20px;
+    padding: 3vh;
     align-items: center;
     font-size: 1.3vw;
     font-weight:bold;
+    margin-left: 5vw;
+    margin-top: 5vh;
 }
 .nav:hover{
     background-color: #7CE3E5;
@@ -517,6 +519,7 @@ a:link {
         align-items: center;
         font-size: 3vw;
         font-weight:bold;
+        margin-top: 0vh;
     }
     .nav:hover{
         background-color: #7CE3E5;
